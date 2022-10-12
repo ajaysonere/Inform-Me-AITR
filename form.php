@@ -133,11 +133,11 @@ span.psw {
 
 <body>
     
-    <section class="main" style="background-image: url(images/hero-bg.png);">
+    <section class="main" style="background-image: url(hero-bg.png);">
         
         <nav>
             <a href="#" class="logo">
-                <img src="images/logo3x.png   " width="320px" />
+                <img src="logo3x.png   " width="320px" />
             </a>
             <input class="menu-btn" type="checkbox" id="menu-btn"/>
             <label class="menu-icon" for="menu-btn">
@@ -175,7 +175,7 @@ span.psw {
               </div>          
               <div class="container" style="background-color:#f1f1f1">
                 <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                <span class="psw"><a href="registration.html">Register Here</a></span>
+                <span class="psw"><a href="register.php">Register Here</a></span>
                 <span class="psw" style="margin-right: 11px;"><a href="#">Forgot  password?</a></span>
               </div>
             </form>
@@ -200,7 +200,7 @@ span.psw {
             </div>
             <!--img-->
             <div class="home-img" style="width: 500px;">
-                <img src="images/hero.png" width="500px" style="text-shadow: 20px 22px;"/>
+                <img src="hero.png" width="500px" style="text-shadow: 20px 22px;"/>
                 <marquee width="100%" direction="left" onmouseover="this.stop();"
                 onmouseout="this.start();">
                     <a href="#" style="color: white;">Addmission ..</a>
@@ -229,7 +229,7 @@ span.psw {
         <div class="box-container">
             <!--box-1-------->
             <div class="box">
-                <img src="images/icon5.png">
+                <img src="icon5.png">
                 <font>Web Development </font>
                 <p>Lorem ipsum dolor sit amet, consectetur ad asese do eiusmod tempor incididunt utarla oreetdolo magna aliqua</p>
                 <!--btn--------->
@@ -237,7 +237,7 @@ span.psw {
             </div>
             <!--box-2-------->
             <div class="box">
-                <img src="images/icon5.png">
+                <img src="icon5.png">
                 <font>Android Development </font>
                 <p>Lorem ipsum dolor sit amet, consectetur ad asese do eiusmod tempor incididunt utarla oreetdolo magna aliqua.</p>
                 <!--btn--------->
@@ -245,7 +245,7 @@ span.psw {
             </div>
             <!--box-3-------->
             <div class="box">
-                <img src="images/icon5.png">
+                <img src="icon5.png">
                 <font>Machine learning </font>
                 <p>Lorem ipsum dolor sit amet, consectetur ad asese do eiusmod tempor incididunt utarla oreetdolo magna aliqua</p>
                 <!--btn--------->
@@ -253,7 +253,7 @@ span.psw {
             </div>
             <!--box-4-------->
             <div class="box">
-                <img src="images/icon5.png">
+                <img src="icon5.png">
                 <font> Cyber Security </font>
                 <p>Lorem ipsum dolor sit amet, consectetur ad asese do eiusmod tempor incididunt utarla oreetdolo magna aliqua.</p>
                 <!--btn--------->

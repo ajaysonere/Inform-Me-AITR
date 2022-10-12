@@ -18,7 +18,7 @@ $query = "INSERT INTO information VALUES('$username','$password')";
 
 $data = mysqli_query($h,$query);
 if($data){
-    echo "Data Inserted into database";
+  header("Location: http://localhost/crud/form.php");
 }
 else{
     echo "Failed";
