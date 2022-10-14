@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -103,12 +104,23 @@ button:hover {
 .input_container>h1 {
   text-align: center;
 }
+.note{
+  
+  width: 75vh;
+}
+.note p{
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: bold;
+  font-size: 15px;
+}
 
-@media (max-width:460px; ) {
+@media (max-width:460px ) {
   .form_textarea {
     grid-column: 1/span 1;
   }
 }
+
     </style>
   </head>
 
@@ -116,7 +128,7 @@ button:hover {
     <div class="container">
       <div class="input_container">
         <h1>Register Form </h1>
-        <form class="" action="index.html" method="post">
+        <form class="" action="registerback.php" method="POST">
           <div class="form_container">
             <div class="input_form">
               <label for="first_name">First Name</label>
@@ -149,24 +161,55 @@ button:hover {
             </div>
             <div class="input_form">
               <label for="jobrole">Job Role</label>
-              <select class="dropdown" name="" id="jobrole" required>
-                <option value="ADMIN"> ADMIN </option>
-                <option value="STUDENT">STUDENT </option>
-                <option value="TEACHER ">TEACHER </option>
+              <select class="dropdown" name="jobrole" id="jobrole" required>
+                <option value="A"> ADMIN </option>
+                <option value="S">STUDENT </option>
+                <option value="T ">TEACHER </option>
               </select>
             </div>
             <div class="input_form">
               <label for="phone">Mobile No.</label>
-              <input type="tel" name="pincode" value="" id="phone" placeholder="Optional" >
+              <input type="tel" name="phone" value="" id="phone" placeholder="XXXXXXXXXX" >
             </div>
-          </div>
+            <div class="note">
+              <p>Note : Remember your password , you won't able to forget password </p>
+            </div>
+          </div>   
+           <div class="submit">
+             <button type="submit" name="login">Register Now </button>
+            </div>
+         </div>
         </form>
-        <div class="submit">
-          <button type="submit" name="button">Apply Now </button>
-        </div>
       </div>
     </div>
-
   </body>
 
 </html>
+
+ <!-- <?php  include("registerconn.php"); ?> -->
+
+<!-- <?php 
+//  if(@$_POST['login'])
+// {
+//   $firstname = $_POST['first_name'];
+//   $lastname = $_POST['last_name'];
+//   $email = $_POST['email'];
+//   $password = $_POST['password'];
+//   $address = $_POST['address'];
+//   $city = $_POST['city'];
+//   $pincode = $_POST['pincode'];
+//   $jobrole = $_POST['jobrole'];
+//   $phone = $_POST['phone'];
+
+//   $q =  "INSERT INTO REGISTERFORM VALUES('$firstname' , '$lastname' , '$email' , '$password' , '$address' , '$city' , '$pincode' , '$jobrole' , '$phone' )";
+//   $data = mysqli_query($con,$q);
+
+
+//   if($data){
+//       echo "data is inserted into database";
+//   }
+//   else{
+//     echo " failed";
+//   }
+// }
+?>  -->

@@ -176,7 +176,6 @@ span.psw {
               <div class="container" style="background-color:#f1f1f1">
                 <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
                 <span class="psw"><a href="register.php">Register Here</a></span>
-                <span class="psw" style="margin-right: 11px;"><a href="#">Forgot  password?</a></span>
               </div>
             </form>
           </div>

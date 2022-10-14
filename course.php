@@ -62,7 +62,7 @@
       <div class="form_input">
          <form action="connection.php" method="POST">
             <div class="form-group">
-            <label for="exampleInputEmail1">User Name </label>
+            <label for="exampleInputEmail1">E-Mail &nbsp; </label>
              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="uname" require>
            </div>
           <div class="form-group">
