@@ -18,7 +18,7 @@ $query = "INSERT INTO information VALUES('$username','$password')";
 
 $data = mysqli_query($h,$query);
 if($data){
-  header("Location: http://localhost/crud/form.php");
+  header("Location: http://localhost/crud/courseconn.php");
 }
 else{
     echo "Failed";

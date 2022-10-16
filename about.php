@@ -7,7 +7,7 @@
 <title>acropolis indore</title>
 <link rel="stylesheet" href="style.css"/>
 <!--fav-icon-->
-<link rel="shortcut icon" href="images/favicon1.png"/>
+<link rel="shortcut icon" href="favicon1.png"/>
 <style>
     /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -144,10 +144,10 @@ span.psw {
                 <span class="nav-icon"></span>
             </label>
             <ul class="menu" style="border-radius: 5px;">
-                <li><a href="#">About</a></li>
+                <li><a href="about.php">About</a></li>
                 <li><a href="#">Notification</a></li>
                 <li><a href="#">Results</a></li>
-                <li><a href="#">Apply Now</a></li>
+                <li><a href="register.php">Apply Now</a></li>
                 <li><a class="active" onclick="document.getElementById('id01').style.display='block'" style="width:auto; border-radius: 5px; cursor: pointer;">Login</a></li>
             </ul>
         </nav>
@@ -189,13 +189,12 @@ span.psw {
             <div class="home-text" >
                 
                 <h3 style="color: white; letter-spacing: 3px;">Welcome to AITR Student Portal </h3>
-                <h1 style="color: white;"> Student Portal</h1>
+                <h1 style="color: white;"> IT IS ABOUT SECTION </h1>
                 <p style="color: white;">The purpose of Schools is to prepare students with promise
                     to enhance their intellectual, physical, social, emotional, spiritual,
                     and artistic growth so that they may realize their power for good
                     as citizens</p>
             <!--login-btn-->
-            <a href="#" class="main-login" style="border-radius: 5px;">Apply Now</a>
             </div>
             <!--img-->
             <div class="home-img" style="width: 500px;">
@@ -232,7 +231,7 @@ span.psw {
                 <font>Web Development </font>
                 <p>Lorem ipsum dolor sit amet, consectetur ad asese do eiusmod tempor incididunt utarla oreetdolo magna aliqua</p>
                 <!--btn--------->
-                <a href="course.php">Apply Now</a>
+                <a href="web.php">Apply Now</a>
             </div>
             <!--box-2-------->
             <div class="box">
@@ -240,7 +239,7 @@ span.psw {
                 <font>Android Development </font>
                 <p>Lorem ipsum dolor sit amet, consectetur ad asese do eiusmod tempor incididunt utarla oreetdolo magna aliqua.</p>
                 <!--btn--------->
-                <a href="course.php">Apply Now</a>
+                <a href="android.php">Apply Now</a>
             </div>
             <!--box-3-------->
             <div class="box">
@@ -248,7 +247,7 @@ span.psw {
                 <font>Machine learning </font>
                 <p>Lorem ipsum dolor sit amet, consectetur ad asese do eiusmod tempor incididunt utarla oreetdolo magna aliqua</p>
                 <!--btn--------->
-                <a href="course.php">Apply Now</a>
+                <a href="machine.php">Apply Now</a>
             </div>
             <!--box-4-------->
             <div class="box">
@@ -256,7 +255,7 @@ span.psw {
                 <font> Cyber Security </font>
                 <p>Lorem ipsum dolor sit amet, consectetur ad asese do eiusmod tempor incididunt utarla oreetdolo magna aliqua.</p>
                 <!--btn--------->
-                <a href="course.php">Apply Now</a>
+                <a href="cyber.php">Apply Now</a>
             </div>
             <!--box-1-------->
             

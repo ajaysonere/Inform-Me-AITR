@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
   <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -15,7 +15,7 @@
     }
     .container{
     width: 100%;
-    height:100vh;
+    height:150vh;
     background-color: #90aeac;
     display: flex;
     align-items: center;
@@ -75,17 +75,21 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 500;
   margin: 30px 0 10px;
-
+  
 }
+
  </style>
   </head>
   <body>  
     <div class="container">
+       <div>
+       <h3> You Will be get notify . When Any Activity will schedule .</h3>
+       </div>
        <div class="popup" id="popup"> 
         <img src="tick.png" alt="">
         <h2>Register Successfully</h2>
         <p>Your details has been submited . Thanks </p>
-        <button type="button"><a href="index.php" onclick="closepopup()">OK</a></button>
+        <button type="button"><a href="index.php" >OK</a></button>
       </div>
     </div>
   </body>

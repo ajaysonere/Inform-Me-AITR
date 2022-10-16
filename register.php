@@ -5,6 +5,8 @@
   <head>
     <meta charset="utf-8">
     <title> Job Application </title>
+    <link rel="shortcut icon" href="favicon1.png"/>
+
     <style>
 * {
   margin: 0;
