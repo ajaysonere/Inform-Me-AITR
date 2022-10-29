@@ -18,6 +18,9 @@ input[type=text], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
+body{
+   scroll-behavior: smooth;
+}
 
 /* Set a style for all buttons */
 button {
@@ -146,7 +149,7 @@ span.psw {
             <ul class="menu" style="border-radius: 5px;">
                 <li><a href="about.php">About</a></li>
                 <li><a href="#">Notification</a></li>
-                <li><a href="#">Results</a></li>
+                <li><a href="result.php">Results</a></li>
                 <li><a href="register.php">Apply Now</a></li>
                 <li><a class="active" onclick="document.getElementById('id01').style.display='block'" style="width:auto; border-radius: 5px; cursor: pointer;">Login</a></li>
             </ul>

@@ -77,13 +77,24 @@
   margin: 30px 0 10px;
   
 }
+div > h3 {
+  padding: 20px;
+  position: absolute;
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  top: 40px;
+  left: 350px;
+  font-weight: 600;
+}
 
  </style>
   </head>
   <body>  
     <div class="container">
        <div>
-       <h3> You Will be get notify . When Any Activity will schedule .</h3>
+       <h3> You Will notify , When Any Activity will schedule .</h3>
        </div>
        <div class="popup" id="popup"> 
         <img src="tick.png" alt="">

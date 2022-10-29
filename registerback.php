@@ -9,7 +9,8 @@
   $pincode = $_POST['pincode'];
   $jobrole = $_POST['jobrole'];
   $phone = $_POST['phone'];
- 
+  
+
   $h =  mysqli_connect("localhost","root","","registerback");
 //  mysqli_select_db("backend" , $h);
  

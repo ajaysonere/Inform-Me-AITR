@@ -2,8 +2,6 @@
   
   $username = $_POST['uname'];
   $password = $_POST['pass'];
-  // echo $username;
-  // echo $password; 
  
   $h =  mysqli_connect("localhost","root","","backend");
 //  mysqli_select_db("backend" , $h);
