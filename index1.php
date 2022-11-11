@@ -145,10 +145,10 @@ span.psw {
             </label>
             <ul class="menu" style="border-radius: 5px;">
                 <li><a href="about.php">About</a></li>
-                <li><a href="#" onClick="alert('This Hyper Link Work Only When You Logged In ')" > Information </a></li>
+                <li><a href="showcourse.php">Information</a></li>
                 <li><a href="result.php">Results</a></li>
                 <li><a href="register.php">Apply Now</a></li>
-                <li><a class="active" onclick="document.getElementById('id01').style.display='block'" style="width:auto; border-radius: 5px; cursor: pointer;">Login</a></li>
+                <li><a class="active" display='block'" style="width:auto; border-radius: 5px; cursor: pointer;" href="index.php">Log Out</a></li>
             </ul>
         </nav>
        
@@ -168,7 +168,7 @@ span.psw {
                 <label for="psw"><b>Password</b></label>
                 <input type="password" placeholder="Enter Password" name="pass" required>
                   
-                <button type="submit" onclick=""  value="login">Login</button>
+                <button type="submit" onclick=""  value="login ">Login</button>
                 <label>
                   <input type="checkbox" checked="checked" name="remember"> Remember me
                 </label>
@@ -188,7 +188,7 @@ span.psw {
             <!--text-->
             <div class="home-text" >
                 
-                <h3 style="color: white; letter-spacing: 3px;">Welcome to AITR Student Portal </h3>
+                <h3 style="color: white; letter-spacing: 3px;">Welcome to  Student Portal </h3>
                 <h1 style="color: white;"> Student Portal</h1>
                 <p style="color: white;">The purpose of Schools is to prepare students with promise
                     to enhance their intellectual, physical, social, emotional, spiritual,
@@ -202,11 +202,11 @@ span.psw {
                 <img src="hero.png" width="500px" style="text-shadow: 20px 22px;"/>
                 <marquee width="100%" direction="left" onmouseover="this.stop();"
                 onmouseout="this.start();">
-                    <a href="#" style="color: white;">Hackthon : Cyber Security Today at 6PM O Clock</a>
+                    <a href="#" style="color: white;">Addmission ..</a>
                     </marquee>
                     <marquee width="100%" direction="right" onmouseover="this.stop();"
                 onmouseout="this.start();">
-                    <a href="#" style="color: white;">Online Compititive Programming Tommorow 10AM O Clock </a>
+                    <a href="#" style="color: white;">Addmission </a>
                     </marquee>
             </div>
             

@@ -171,7 +171,7 @@ button:hover {
             </div>
             <div class="input_form">
               <label for="phone">Mobile No.</label>
-              <input type="tel" name="phone" value="" id="phone" placeholder="XXXXXXXXXX" >
+              <input type="tel" name="phone" value="" id="phone" placeholder="XXXXXXXXXX" required>
             </div>
             <div class="note">
               <p>Note : Remember your password , you won't able to forget password </p>

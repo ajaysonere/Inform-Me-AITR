@@ -85,7 +85,7 @@
         <img src="tick.png" alt="">
         <h2>Register Successfully</h2>
         <p>Your details has been submited . Thanks </p>
-        <button type="button"><a href="index.php" onclick="closepopup()">OK</a></button>
+        <button type="button"><a href="index1.php" onclick="closepopup()">OK</a></button>
       </div>
     </div>
   </body>
